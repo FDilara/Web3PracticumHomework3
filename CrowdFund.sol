@@ -20,7 +20,7 @@ contract CrowdFund {
         uint pledged; //Amount of tokens sent for the campaign
         uint32 startAt; //Start time
         uint32 endAt; //End time
-        bool claimed; //verilerin yaratıcı tarafından talep edildiğini söyleyen verileri depolamak istiyoruz
+        bool claimed; //Claimed by the creator
     }
 
     /***State Variables***/
